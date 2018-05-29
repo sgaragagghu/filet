@@ -1,0 +1,10 @@
+void comandocd(int sockfd,char* path);
+void str_srv_echo(int sockd);
+void *thread_function(void *arg);
+void thread_init();
+void thread_init_zombie();
+void comandols(int sockd,char* path);
+void getcommand(int sockfd, unsigned char* ptr);
+void comandoput(int sockd, char* path);
+void comandoget(int sockd, char* path);
+void *thread_cleaner(void *arg);
